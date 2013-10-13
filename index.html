@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+		<link href="adjustments.css" rel="stylesheet" type="text/css">
+		<meta name="description" content="GPA Calculator for UIUC">
+		<meta name="keywords" content="UIUC, GPA, Calculator, UIUC, University, Illinois, Javascript, Knockout.js, Nicolas, Cage">
+		<meta name="author" content="William Xie">
+		<meta charset="UTF-8">
+		<title>UIUC GPA Calculator</title>
+	</head>
+	<body>
+		<div align="center">
+			<p class="text-center">Quick Links: <a href="https://apps.uillinois.edu/selfservice/">Enterprise</a> 
+			| <a href="https://my.illinois.edu/uPortal/">Course Catalog</a> 
+	    	| <a href="http://www.registrar.illinois.edu/grades/GPA.html">GPA Explanation</a></p>
+			<h1 class="text-center">UIUC GPA Calculator</h1>
+			<h4 class="text-center">Please insert the grades you got in each class below.</h4>
+			<br \>
+			<input type="button" class="btn btn-primary btn-small" value="Add Class" data-bind="click: addClass"\>
+			<br \>
+			<br \>
+			<table>
+		    	<thead>
+		    		<tr>
+			        	<th>Class</th>
+			        	<th class = "padGradeHeader">Grade</th>
+			        	<th class = "padCredits">Credits</th>
+			    	</tr>
+				</thead>
+				    <tbody data-bind="foreach: classes">
+				        <tr>
+				            <td class = "padClass"><input data-bind="value: name" /></td>
+				            <td class = "padGrade"><select data-bind="options: $root.GPA, value: grade, optionsText: 'grade'"></select></td>
+				            <td class = "padCredits"><select data-bind="options: $root.creditChoice, value: credits, optionsText: 'credits'" /></td>
+				            <td><a href="#" data-bind="click: $root.removeClass">Remove</a></td>
+				        </tr>    
+				    </tbody>
+			</table>
+			<!-- <p>GPA: <strong data-bind="text: calculateGPA().toFixed(2)"></strong></p> 
+			-->
+			<br \>
+			<div class="well" data-bind="text:calculateGPA().toFixed(2)">
+			</div>
+
+		
+		</div>
+
+		<!-- CDN Java Scripts -->
+		<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/knockout/knockout-2.2.1.js"></script>
+		<script type="text/javascript" src="gpacalc.js"></script>
+		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	</body>
+</html>
+
+
