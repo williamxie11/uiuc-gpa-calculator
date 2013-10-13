@@ -4,7 +4,7 @@ UIUC GPA Calculator
 
 William Xie
 
-http://xiewilliam.com/gpa
+http://xiew.me/gpa
 
 -----
 
