@@ -8,8 +8,7 @@ http://xiewilliam.com/gpa
 
 -----
 
-DESCRIPTION
-===================
+## ** DESCRIPTION --
 
 Simple web application using Knockout.js to calculate GPA at UIUC.
 
@@ -17,8 +16,7 @@ Utilizes Twitter Bootstrap for a better look.
 
 -----
 
-RESOURCES
-===================
+## ** RESOURCES --
 
 Knockout.js: http://knockoutjs.com/
 
@@ -29,5 +27,7 @@ UIUC Enterprise: https://apps.uillinois.edu/selfservice/
 UIUC Course Catalog: https://my.illinois.edu/uPortal/render.userLayoutRootNode.uP
 
 How UIUC GPA Is Calculated: http://www.registrar.illinois.edu/grades/GPA.html
+
+
 
 
