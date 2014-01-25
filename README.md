@@ -12,8 +12,6 @@ http://xiew.me/gpa
 
 Simple web application using Knockout.js to calculate GPA at UIUC.
 
-Utilizes Twitter Bootstrap for a better look.
-
 -----
 
 #RESOURCES
