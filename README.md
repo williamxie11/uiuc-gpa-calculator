@@ -2,19 +2,18 @@ uiuc-gpa-calculator
 ===================
 UIUC GPA Calculator
 
+Simple web application using Knockout.js to calculate a semester's GPA at UIUC. 
+
+Currently looks pretty ugly - will need to gussy it up later.
+
 William Xie
 
-http://xiew.me/gpa
-
------
-
-#DESCRIPTION
-
+http://xiew.me/apps/gpa
 Simple web application using Knockout.js to calculate GPA at UIUC.
 
 -----
 
-#RESOURCES
+Resources:
 
 Knockout.js: http://knockoutjs.com/
 
