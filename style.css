@@ -1,0 +1,61 @@
+body
+{
+	background-color:#FEFEFE;
+}
+
+.data-input {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/* Padding for dropdown menus */
+/*    used by: grade, credits */
+th.padClassHeader
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+}
+
+th.padGradeHeader
+{
+	padding-left: 15px;
+}
+
+th.padCreditsHeader
+{
+	padding-left: 5px;
+}
+
+/* Padding for dropdown menus */
+/*    used by: grade, credits */
+td.padGrade
+{
+	padding-left: 15px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+}
+
+td.padCredits
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+}
+
+td.padClass
+{
+	padding-right: 10px;
+	padding-bottom: 5px;
+}
+
+#gpa-display
+{
+	padding: 5 5 5 5;
+	font-size: 20px;
+	background-color: #F47F24;
+	height: 30px;
+	width: 70px;
+}
+
+
